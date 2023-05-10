@@ -160,3 +160,4 @@ footer {
 .shopee {
   padding: 4px;
 }
+@import "{{ theme.minima }}";
