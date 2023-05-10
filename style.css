@@ -1,0 +1,162 @@
+*,
+
+html
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.container {
+ background-color: gray;
+ height: auto;
+ width: 100%;
+ min-height: 35vh;
+}
+
+
+.wrapper {
+   display: flex;
+   justify-content: center;
+    background-color: rgb(18, 167, 204);
+   align-items: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.card {
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    padding: 32px;
+    border: 1px solid rgb(168, 182, 184);
+    margin: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(63, 62, 62);
+  
+}
+
+.text-center {
+    text-align: center;
+}
+
+.icons {
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+}
+.icon {
+    font-size: 100px;
+    color: rgb(156, 16, 16);}
+    .icons2 {
+        font-size: 100px;
+        color: rgb(0, 0, 0);
+    }
+.icons3 {
+  font-size: 100px;
+  color: #5865F2;
+}
+
+h1 {
+    color: rgb(10, 0, 0);
+}
+
+.title {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.desk {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+    margin-top: 16px;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    font-size: 40px;
+    
+}
+
+.btn:hover{
+    background-color: rgb(18, 167, 204);
+    -ms-transform: translate 3s;
+    transform: translate 0.3s;
+    transform: .3s ease-in-out;
+
+}
+.ss {
+  width: 100%;
+  min-height: 50vh;
+  background-color: gray;
+  background-image: url('w.jpeg');
+    background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+}
+.wele {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 10vh;
+    min-width: 100%;
+
+}
+.kulu {
+    width: 200px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    border: 1px solid white;
+    margin: 35px;
+    padding-top: 5;
+    height: 210px;
+}
+.textpep {
+  color: black;
+  text-align: center;
+}
+.yui {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+a {
+    text-decoration: none;
+color: black;
+}
+
+  .wlee {
+    color: white;
+    text-align: center;
+    margin-bottom: 0vh;
+  }
+  .pele {
+    color: white;
+    text-shadow: 2px 2px 2px  black;
+    margin: 20px;
+    
+  }
+
+footer {
+  color: gray;
+  text-align: center;
+  text-size: 50px;
+  padding: 5px;
+  margin-top: 35px;
+  min-height: 50px;
+  background-color: lightblue;
+}
+.ashiap{
+  padding: 10%;
+  color: white;
+}
+.shopee {
+  padding: 4px;
+}
